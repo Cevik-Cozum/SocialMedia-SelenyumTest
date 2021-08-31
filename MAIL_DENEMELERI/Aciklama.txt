@@ -1,0 +1,2 @@
+hotmail ve yahoo ile mail alırken 3. mailden sonrasına telefon numarası doğrulaması isteniyor. 
+Random mailler için en uygunu yandex.com ile alınan mailler. Bunun için yandexRandomMailOluşturma.side testini deneyiniz. 

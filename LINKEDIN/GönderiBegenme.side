@@ -1,0 +1,324 @@
+{
+  "id": "03a48eb4-9850-4e79-93d9-49a0ad774301",
+  "version": "2.0",
+  "name": "linkedinBeğeni9",
+  "url": "https://www.linkedin.com",
+  "tests": [{
+    "id": "96dd147d-c798-4551-a132-f71a478602e2",
+    "name": "CevikCozumGönderiBegenme",
+    "commands": [{
+      "id": "0838af3b-8c65-4455-ba37-e388c65e7929",
+      "comment": "",
+      "command": "open",
+      "target": "/checkpoint/rm/sign-in-another-account?fromSignIn=true&trk=guest_homepage-basic_nav-header-signin",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9158c6db-4b8d-4e6d-b8cc-f1d40b8e63fd",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1440x860",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "eeb6d9a6-616f-47d5-bed8-de961bdfc785",
+      "comment": "",
+      "command": "type",
+      "target": "id=username",
+      "targets": [
+        ["id=username", "id"],
+        ["name=session_key", "name"],
+        ["css=#username", "css:finder"],
+        ["xpath=//input[@id='username']", "xpath:attributes"],
+        ["xpath=//div[@id='organic-div']/form/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "adageer@yandex.com"
+    }, {
+      "id": "878ef872-62f4-4f60-8001-2019bb25173d",
+      "comment": "",
+      "command": "click",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["name=session_password", "name"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//div[@id='organic-div']/form/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "34d37d58-bfb4-4a4d-a0f0-613f86ef5d81",
+      "comment": "",
+      "command": "type",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["name=session_password", "name"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//div[@id='organic-div']/form/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "AZsx.123_"
+    }, {
+      "id": "8e0e42ad-b3da-4080-9a99-8561b4f62be5",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn__primary--large",
+      "targets": [
+        ["css=.btn__primary--large", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//div[@id='organic-div']/form/div[3]/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Oturum açın')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "cc6801f0-dbeb-4a5c-9dbf-b926d6ceae66",
+      "comment": "",
+      "command": "click",
+      "target": "css=.search-global-typeahead__input",
+      "targets": [
+        ["css=.search-global-typeahead__input", "css:finder"],
+        ["xpath=//input[@type='text']", "xpath:attributes"],
+        ["xpath=//div[@id='global-nav-typeahead']/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e70b8b89-9e8e-453d-93a8-6e44f74de9ef",
+      "comment": "",
+      "command": "doubleClick",
+      "target": "css=.search-global-typeahead__input",
+      "targets": [
+        ["css=.search-global-typeahead__input", "css:finder"],
+        ["xpath=//input[@type='text']", "xpath:attributes"],
+        ["xpath=//div[@id='global-nav-typeahead']/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e43bc1e0-fb79-46df-a425-d6eff23ed966",
+      "comment": "",
+      "command": "type",
+      "target": "css=.search-global-typeahead__input",
+      "targets": [
+        ["css=.search-global-typeahead__input", "css:finder"],
+        ["xpath=//input[@type='text']", "xpath:attributes"],
+        ["xpath=//div[@id='global-nav-typeahead']/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "çevik çözüm"
+    }, {
+      "id": "4186155b-af32-4f32-88c5-86d1471d3934",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "css=.search-global-typeahead__input",
+      "targets": [
+        ["css=.search-global-typeahead__input", "css:finder"],
+        ["xpath=//input[@type='text']", "xpath:attributes"],
+        ["xpath=//div[@id='global-nav-typeahead']/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "2caef759-6856-47cd-aef1-fce38f58fbda",
+      "comment": "",
+      "command": "click",
+      "target": "id=ember679",
+      "targets": [
+        ["id=ember679", "id"],
+        ["css=#ember679", "css:finder"],
+        ["xpath=//button[@id='ember679']", "xpath:attributes"],
+        ["xpath=//div[@id='search-reusables__filters-bar']/ul/li[4]/button", "xpath:idRelative"],
+        ["xpath=//li[4]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Şirketler')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "2f3d38f2-073b-4dd6-9464-3282458da189",
+      "comment": "",
+      "command": "doubleClick",
+      "target": "css=.search-results-loader__filter-block:nth-child(5)",
+      "targets": [
+        ["css=.search-results-loader__filter-block:nth-child(5)", "css:finder"],
+        ["xpath=//div/ul/li[5]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6c26df44-dbe2-40eb-a3a7-231136033a9a",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "id=ember780",
+      "targets": [
+        ["id=ember780", "id"],
+        ["css=#ember780", "css:finder"],
+        ["xpath=//button[@id='ember780']", "xpath:attributes"],
+        ["xpath=//span[@id='ember779']/button", "xpath:idRelative"],
+        ["xpath=//li[5]/div/span/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Şirket büyüklüğü')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a689aac2-1e0c-43d6-8ec3-90a15c4b90fb",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "id=ember780",
+      "targets": [
+        ["id=ember780", "id"],
+        ["css=#ember780", "css:finder"],
+        ["xpath=//button[@id='ember780']", "xpath:attributes"],
+        ["xpath=//span[@id='ember779']/button", "xpath:idRelative"],
+        ["xpath=//li[5]/div/span/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Şirket büyüklüğü')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "8e91ac68-f74c-4ea8-a907-dfc38a79f7ea",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Çevik Çözüm",
+      "targets": [
+        ["linkText=Çevik Çözüm", "linkText"],
+        ["css=.entity-result__title-text > .app-aware-link", "css:finder"],
+        ["xpath=//main[@id='main']/div/div/div[2]/ul/li/div/div/div[2]/div/div/div/span/span/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'https://www.linkedin.com/company/cevikcozum/')])[2]", "xpath:href"],
+        ["xpath=//span/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Çevik Çözüm')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e0267d79-b864-4b7b-a3f3-f1db90da0105",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Çevik Çözüm",
+      "targets": [
+        ["linkText=Çevik Çözüm", "linkText"],
+        ["css=.entity-result__title-text > .app-aware-link", "css:finder"],
+        ["xpath=//main[@id='main']/div/div/div[2]/ul/li/div/div/div[2]/div/div/div/span/span/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'https://www.linkedin.com/company/cevikcozum/')])[2]", "xpath:href"],
+        ["xpath=//span/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Çevik Çözüm')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "323d7275-4355-40e7-ab8f-952f366b372a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.follow > span",
+      "targets": [
+        ["css=.follow > span", "css:finder"],
+        ["xpath=//div[@id='ember789']/div[2]/div/div[3]/div/div/button/span", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Takip Ediliyor')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "cea31671-fc5f-4f22-b5d1-02b5a8e67191",
+      "comment": "",
+      "command": "click",
+      "target": "css=#ember1012 > .artdeco-button__text",
+      "targets": [
+        ["css=#ember1012 > .artdeco-button__text", "css:finder"],
+        ["xpath=//button[@id='ember1012']/span", "xpath:idRelative"],
+        ["xpath=//div[3]/button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'İptal Et')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "4ffe64eb-e724-4f05-a090-a84e99a73375",
+      "comment": "",
+      "command": "click",
+      "target": "css=.follow > span",
+      "targets": [
+        ["css=.follow > span", "css:finder"],
+        ["xpath=//div[@id='ember789']/div[2]/div/div[3]/div/div/button/span", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Takip Ediliyor')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "3ed64701-dc2b-44ba-93bb-f7cd1c495fda",
+      "comment": "",
+      "command": "click",
+      "target": "css=#ember1021 > .artdeco-button__text",
+      "targets": [
+        ["css=#ember1021 > .artdeco-button__text", "css:finder"],
+        ["xpath=//button[@id='ember1021']/span", "xpath:idRelative"],
+        ["xpath=//button[2]/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Takip Etmeyi Durdur')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "8b5f0f2e-24c2-4479-a387-3a4d1a8ec9d9",
+      "comment": "",
+      "command": "click",
+      "target": "css=.follow > span",
+      "targets": [
+        ["css=.follow > span", "css:finder"],
+        ["xpath=//div[@id='ember789']/div[2]/div/div[3]/div/div/button/span", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Takip Et')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "9ecda45e-f203-4c10-bf4b-3300109fa932",
+      "comment": "",
+      "command": "click",
+      "target": "css=#ember32 .global-nav__icon",
+      "targets": [
+        ["css=#ember32 .global-nav__icon", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "a54c46b5-1da4-4132-87e9-43cb230af8ad",
+      "comment": "",
+      "command": "doubleClick",
+      "target": "css=#ember32 .global-nav__icon",
+      "targets": [
+        ["css=#ember32 .global-nav__icon", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "438831af-9cf4-4aa3-99b2-82be9d9d21e2",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Oturumu Kapat",
+      "targets": [
+        ["linkText=Oturumu Kapat", "linkText"],
+        ["css=.mv1:nth-child(1)", "css:finder"],
+        ["xpath=//div[@id='ember35']/div/ul/li[3]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/m/logout/')]", "xpath:href"],
+        ["xpath=//div/ul/li[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Oturumu Kapat')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "890f3dbd-5eef-400c-a823-0d53d624b53d",
+      "comment": "",
+      "command": "doubleClick",
+      "target": "linkText=Oturumu Kapat",
+      "targets": [
+        ["linkText=Oturumu Kapat", "linkText"],
+        ["css=.mv1:nth-child(1)", "css:finder"],
+        ["xpath=//div[@id='ember35']/div/ul/li[3]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/m/logout/')]", "xpath:href"],
+        ["xpath=//div/ul/li[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Oturumu Kapat')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "116d3c0d-9280-4636-8f44-8f8d993a8315",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["96dd147d-c798-4551-a132-f71a478602e2"]
+  }],
+  "urls": ["https://www.linkedin.com/"],
+  "plugins": []
+}

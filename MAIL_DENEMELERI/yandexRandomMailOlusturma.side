@@ -1,0 +1,308 @@
+{
+  "id": "2c8f4c02-cc26-494b-aeeb-f5f3bb3ec8e8",
+  "version": "2.0",
+  "name": "RandomMail2",
+  "url": "https://mail.yandex.com.tr",
+  "tests": [{
+    "id": "36700d77-bb2c-4812-84c2-180cdcaa8db1",
+    "name": "GüvenlikKelimeleriElleGiriliyor",
+    "commands": [{
+      "id": "2614ccf9-3ef8-4985-a057-54e29c3e48b8",
+      "comment": "",
+      "command": "open",
+      "target": "/?noretpath=1",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "028349cd-3c0a-485a-a43d-7d0b875190d1",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1456x876",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "386f2081-9fc2-4444-b0fe-97a216e24ffb",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Hesap oluştur",
+      "targets": [
+        ["linkText=Hesap oluştur", "linkText"],
+        ["css=.control_hovered_yes", "css:finder"],
+        ["xpath=//div[@id='index-page-container']/div/div[2]/div/div/div[4]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://passport.yandex.com.tr/registration/mail?from=mail&require_hint=1&origin=hostroot_homer_reg_tr&retpath=https%3A%2F%2Fmail.yandex.com.tr%2F%3Fnoretpath%3D1&backpath=https%3A%2F%2Fmail.yandex.com.tr%3Fnoretpath%3D1')]", "xpath:href"],
+        ["xpath=//div[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Hesap oluştur')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "013a4acf-ba80-4d41-8ead-f33b85a79bac",
+      "comment": "",
+      "command": "click",
+      "target": "id=firstname",
+      "targets": [
+        ["id=firstname", "id"],
+        ["name=firstname", "name"],
+        ["css=#firstname", "css:finder"],
+        ["xpath=//input[@id='firstname']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div[2]/div/main/div/div/div/form/div/div/span/input", "xpath:idRelative"],
+        ["xpath=//span/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "40cb8457-b615-42d1-b5b1-dc9fe7cba207",
+      "comment": "",
+      "command": "type",
+      "target": "id=firstname",
+      "targets": [
+        ["id=firstname", "id"],
+        ["name=firstname", "name"],
+        ["css=#firstname", "css:finder"],
+        ["xpath=//input[@id='firstname']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div[2]/div/main/div/div/div/form/div/div/span/input", "xpath:idRelative"],
+        ["xpath=//span/input", "xpath:position"]
+      ],
+      "value": "Ayşe"
+    }, {
+      "id": "6f32d435-f265-4983-a088-c0909f527cff",
+      "comment": "",
+      "command": "click",
+      "target": "css=div:nth-child(2) > .form__field:nth-child(2) > .registration__label",
+      "targets": [
+        ["css=div:nth-child(2) > .form__field:nth-child(2) > .registration__label", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[2]/div/main/div/div/div/form/div/div[2]/label", "xpath:idRelative"],
+        ["xpath=//div[2]/label", "xpath:position"],
+        ["xpath=//label[contains(.,'Soyadı')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "219710c7-a177-4d5d-a80f-853698036518",
+      "comment": "",
+      "command": "type",
+      "target": "id=lastname",
+      "targets": [
+        ["id=lastname", "id"],
+        ["name=lastname", "name"],
+        ["css=#lastname", "css:finder"],
+        ["xpath=//input[@id='lastname']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div[2]/div/main/div/div/div/form/div/div[2]/span/input", "xpath:idRelative"],
+        ["xpath=//div[2]/span/input", "xpath:position"]
+      ],
+      "value": "Kaçmaz"
+    }, {
+      "id": "0428399c-74d4-4fe0-9380-d63dbc57f201",
+      "comment": "",
+      "command": "click",
+      "target": "css=.form__field_wide > .registration__label",
+      "targets": [
+        ["css=.form__field_wide > .registration__label", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[2]/div/main/div/div/div/form/div/div[3]/label", "xpath:idRelative"],
+        ["xpath=//div[3]/label", "xpath:position"],
+        ["xpath=//label[contains(.,'Kullanıcı adı girin')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b68a77bb-231d-4662-9a19-a146c896ac31",
+      "comment": "",
+      "command": "click",
+      "target": "css=.registration__pseudo-link:nth-child(1) > label",
+      "targets": [
+        ["css=.registration__pseudo-link:nth-child(1) > label", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[2]/div/main/div/div/div/form/div/div[3]/div/div/div/div/div/ul/li/label", "xpath:idRelative"],
+        ["xpath=//li/label", "xpath:position"],
+        ["xpath=//label[contains(.,'ay3kamaz')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "acfdd1f4-f26a-4bf4-85df-ed3e78ad2f94",
+      "comment": "",
+      "command": "click",
+      "target": "css=.registration__label:nth-child(3)",
+      "targets": [
+        ["css=.registration__label:nth-child(3)", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[2]/div/main/div/div/div/form/div[2]/div/label", "xpath:idRelative"],
+        ["xpath=//div[2]/div/label", "xpath:position"],
+        ["xpath=//label[contains(.,'Şifrenizi girin')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "5816aa26-f058-4cf6-977c-51ac79218374",
+      "comment": "",
+      "command": "type",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["name=password", "name"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div[2]/div/main/div/div/div/form/div[2]/div/span/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/span/input", "xpath:position"]
+      ],
+      "value": "Ab.x7c"
+    }, {
+      "id": "0dc7e31b-71aa-4dcb-a85c-d55601645be0",
+      "comment": "",
+      "command": "click",
+      "target": "css=div:nth-child(3) > .form__field:nth-child(2) > .registration__label",
+      "targets": [
+        ["css=div:nth-child(3) > .form__field:nth-child(2) > .registration__label", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[2]/div/main/div/div/div/form/div[2]/div[2]/label", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/label", "xpath:position"],
+        ["xpath=//label[contains(.,'Şifrenizi tekrar girin')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "9c336219-8661-49fa-bcdf-fe91664088a7",
+      "comment": "",
+      "command": "type",
+      "target": "id=password_confirm",
+      "targets": [
+        ["id=password_confirm", "id"],
+        ["name=password_confirm", "name"],
+        ["css=#password_confirm", "css:finder"],
+        ["xpath=//input[@id='password_confirm']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div[2]/div/main/div/div/div/form/div[2]/div[2]/span/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/span/input", "xpath:position"]
+      ],
+      "value": "Ab.x7c"
+    }, {
+      "id": "9b917171-d120-45c5-9caf-b8d42fd9624b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.toggle-link > .Link",
+      "targets": [
+        ["css=.toggle-link > .Link", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[2]/div/main/div/div/div/form/div[3]/div/div[2]/div/div/span", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Telefonum yok')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "45916aae-c124-41cb-97a7-833274314eb1",
+      "comment": "",
+      "command": "click",
+      "target": "css=.hint_answer_field > .registration__label",
+      "targets": [
+        ["css=.hint_answer_field > .registration__label", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[2]/div/main/div/div/div/form/div[3]/div/div/div[2]/label", "xpath:idRelative"],
+        ["xpath=//div/div/div[2]/label", "xpath:position"],
+        ["xpath=//label[contains(.,'Kontrol sorusu için yanıt')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "bdf64403-e5cc-4d76-84ff-cd4c3e9ffcd6",
+      "comment": "",
+      "command": "type",
+      "target": "id=hint_answer",
+      "targets": [
+        ["id=hint_answer", "id"],
+        ["name=hint_answer", "name"],
+        ["css=#hint_answer", "css:finder"],
+        ["xpath=//input[@id='hint_answer']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div[2]/div/main/div/div/div/form/div[3]/div/div/div[2]/span/input", "xpath:idRelative"],
+        ["xpath=//div/div/div[2]/span/input", "xpath:position"]
+      ],
+      "value": "fenty"
+    }, {
+      "id": "1be0b490-5a2d-4f5f-a427-58d3d6c7c54e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.captcha-wrapper .registration__label",
+      "targets": [
+        ["css=.captcha-wrapper .registration__label", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[2]/div/main/div/div/div/form/div[3]/div/div[2]/div/label", "xpath:idRelative"],
+        ["xpath=//div/div[2]/div/label", "xpath:position"],
+        ["xpath=//label[contains(.,'Karakterleri girin')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c9dc7962-5d81-4b58-bcec-3e8ea967b86e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.Button2_type_submit",
+      "targets": [
+        ["css=.Button2_type_submit", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div[2]/div/main/div/div/div/form/div[4]/span/button", "xpath:idRelative"],
+        ["xpath=//div[4]/span/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Kayıt ol')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "db7ae98a-6b03-40e1-a861-0d4796c9d533",
+      "comment": "",
+      "command": "type",
+      "target": "id=captcha",
+      "targets": [
+        ["id=captcha", "id"],
+        ["name=captcha", "name"],
+        ["css=#captcha", "css:finder"],
+        ["xpath=//input[@id='captcha']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div[2]/div/main/div/div/div/form/div[3]/div/div[2]/div/span/input", "xpath:idRelative"],
+        ["xpath=//div/div[2]/div/span/input", "xpath:position"]
+      ],
+      "value": "regulation almost"
+    }, {
+      "id": "c6defe6d-a66d-4ffd-8730-7bc432bec754",
+      "comment": "",
+      "command": "click",
+      "target": "id=keep_unsubscribed",
+      "targets": [
+        ["id=keep_unsubscribed", "id"],
+        ["name=keep_unsubscribed", "name"],
+        ["css=#keep_unsubscribed", "css:finder"],
+        ["xpath=//input[@id='keep_unsubscribed']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div[2]/div/main/div/div/div/form/div[4]/div/div[2]/div/div[2]/span/span/span/input", "xpath:idRelative"],
+        ["xpath=//span/span/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "38efcb04-a167-4e5e-87c1-1cc72672e77b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.Button2_size_m",
+      "targets": [
+        ["css=.Button2_size_m", "css:finder"],
+        ["xpath=(//button[@type='button'])[3]", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div[2]/div/main/div/div/div/form/div[4]/div/div[2]/div/button", "xpath:idRelative"],
+        ["xpath=//div/div[2]/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Kabul ediyorum')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "76468983-f577-45ee-8dc8-a700feb9e7cc",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Geç",
+      "targets": [
+        ["linkText=Geç", "linkText"],
+        ["css=.Button2_type_link", "css:finder"],
+        ["xpath=//div[@id='root']/div/div/div[2]/main/div/div/div/div[3]/span/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://mail.yandex.com.tr/?noretpath=1')]", "xpath:href"],
+        ["xpath=//div[3]/span/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Geç')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e0266b95-7150-425b-b442-6bdde0a5ccaa",
+      "comment": "",
+      "command": "click",
+      "target": "css=.b-popup__close",
+      "targets": [
+        ["css=.b-popup__close", "css:finder"],
+        ["xpath=//html[@id='nb-1']/body/div[8]/div[2]/table/tbody/tr/td/div", "xpath:idRelative"],
+        ["xpath=//td/div", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "1ce889bb-0294-4630-b0a2-dfee900e517a",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["36700d77-bb2c-4812-84c2-180cdcaa8db1"]
+  }],
+  "urls": ["https://mail.yandex.com.tr/"],
+  "plugins": []
+}

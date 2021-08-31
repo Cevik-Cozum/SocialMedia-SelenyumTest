@@ -1,0 +1,488 @@
+{
+  "id": "3787ad73-1658-431f-9749-89b953f90173",
+  "version": "2.0",
+  "name": "LinkedinDeneme3",
+  "url": "https://tr.linkedin.com/",
+  "tests": [{
+    "id": "251328d5-ae6e-4492-af55-49b05bb845a2",
+    "name": "LinkedinKayıt(Basarısız)",
+    "commands": [{
+      "id": "8bbf9160-7a99-426e-b573-4f007f1b9e14",
+      "comment": "",
+      "command": "open",
+      "target": "https://tr.linkedin.com/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ff57a2cb-673d-431c-92b6-64619f8bc7be",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1050x708",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a2036829-73a1-4db9-90e8-3ca78678b69d",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Hemen katıl",
+      "targets": [
+        ["linkText=Hemen katıl", "linkText"],
+        ["css=.nav__button-tertiary", "css:finder"],
+        ["xpath=//a[contains(text(),'Hemen katıl')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://www.linkedin.com/signup/cold-join?trk=guest_homepage-basic_nav-header-join')]", "xpath:href"],
+        ["xpath=//div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Hemen katıl')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ac5a8b93-2935-4477-a1ea-1fb3c932806b",
+      "comment": "",
+      "command": "click",
+      "target": "id=email-address",
+      "targets": [
+        ["id=email-address", "id"],
+        ["name=email-address", "name"],
+        ["css=#email-address", "css:finder"],
+        ["xpath=//input[@id='email-address']", "xpath:attributes"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "85da5383-4202-45f7-90f7-9431189d2643",
+      "comment": "",
+      "command": "type",
+      "target": "id=email-address",
+      "targets": [
+        ["id=email-address", "id"],
+        ["name=email-address", "name"],
+        ["css=#email-address", "css:finder"],
+        ["xpath=//input[@id='email-address']", "xpath:attributes"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "edakutoglu@gmail.com"
+    }, {
+      "id": "92f18d01-d2ad-4177-b36a-232fa5716d03",
+      "comment": "",
+      "command": "click",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["name=password", "name"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//div[2]/input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b8fba8f3-11c3-4a54-b1e2-cc80ebe4ee68",
+      "comment": "",
+      "command": "type",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["name=password", "name"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//div[2]/input[2]", "xpath:position"]
+      ],
+      "value": "eda1452KUTOGLU."
+    }, {
+      "id": "49f39a4f-3406-46c7-a43e-136f4e8e3a03",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "index=2",
+      "targets": [
+        ["index=2"]
+      ],
+      "value": ""
+    }, {
+      "id": "e98d65a2-ba66-4bce-a129-4d881b84b281",
+      "comment": "",
+      "command": "click",
+      "target": "id=closeButton",
+      "targets": [
+        ["id=closeButton", "id"],
+        ["css=#closeButton", "css:finder"],
+        ["xpath=//div[@id='closeButton']", "xpath:attributes"],
+        ["xpath=//div[@id='mainDiv']/div[3]/div/div[4]", "xpath:idRelative"],
+        ["xpath=//div[4]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "cb576ae0-1a3b-4690-b405-a45995efb534",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "relative=parent",
+      "targets": [
+        ["relative=parent"]
+      ],
+      "value": ""
+    }, {
+      "id": "f3790041-7712-44bb-8d98-ecf6b57d2fb2",
+      "comment": "",
+      "command": "click",
+      "target": "id=join-form-submit",
+      "targets": [
+        ["id=join-form-submit", "id"],
+        ["css=#join-form-submit", "css:finder"],
+        ["xpath=//button[@id='join-form-submit']", "xpath:attributes"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Kabul Et ve Katıl')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "0ce8286a-ef0c-404b-ade6-dcb68f0b6344",
+      "comment": "",
+      "command": "type",
+      "target": "id=first-name",
+      "targets": [
+        ["id=first-name", "id"],
+        ["name=first-name", "name"],
+        ["css=#first-name", "css:finder"],
+        ["xpath=//input[@id='first-name']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "deneme2"
+    }, {
+      "id": "bb7bce54-2783-4857-9b32-ac3637ae4318",
+      "comment": "",
+      "command": "click",
+      "target": "id=last-name",
+      "targets": [
+        ["id=last-name", "id"],
+        ["name=last-name", "name"],
+        ["css=#last-name", "css:finder"],
+        ["xpath=//input[@id='last-name']", "xpath:attributes"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "50404b97-d377-485e-8a9f-f0ba91052d91",
+      "comment": "",
+      "command": "type",
+      "target": "id=last-name",
+      "targets": [
+        ["id=last-name", "id"],
+        ["name=last-name", "name"],
+        ["css=#last-name", "css:finder"],
+        ["xpath=//input[@id='last-name']", "xpath:attributes"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": "deneme2"
+    }, {
+      "id": "948aaa6d-4516-44a8-a36a-b22aadbe9d46",
+      "comment": "",
+      "command": "click",
+      "target": "id=join-form-submit",
+      "targets": [
+        ["id=join-form-submit", "id"],
+        ["css=#join-form-submit", "css:finder"],
+        ["xpath=//button[@id='join-form-submit']", "xpath:attributes"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Devam Et')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "01eb4e68-7034-4d63-a493-127a21740562",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "index=0",
+      "targets": [
+        ["index=0"]
+      ],
+      "value": ""
+    }, {
+      "id": "6db37b82-2197-4589-b971-adee6a512a0f",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "index=0",
+      "targets": [
+        ["index=0"]
+      ],
+      "value": ""
+    }, {
+      "id": "042b9cce-0151-49d4-b466-812c74e1637b",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "index=0",
+      "targets": [
+        ["index=0"]
+      ],
+      "value": ""
+    }, {
+      "id": "cfb1942e-aa95-4557-8f23-e4f189d58e0a",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "index=0",
+      "targets": [
+        ["index=0"]
+      ],
+      "value": ""
+    }, {
+      "id": "c242eb1c-0f9a-4ef1-93ca-a10496995bf2",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "index=0",
+      "targets": [
+        ["index=0"]
+      ],
+      "value": ""
+    }, {
+      "id": "be962b95-c22a-407b-8bd2-53b4cb0c4207",
+      "comment": "",
+      "command": "click",
+      "target": "id=home_children_button",
+      "targets": [
+        ["id=home_children_button", "id"],
+        ["linkText=Doğrula", "linkText"],
+        ["css=#home_children_button", "css:finder"],
+        ["xpath=//a[contains(text(),'Doğrula')]", "xpath:link"],
+        ["xpath=//a[@id='home_children_button']", "xpath:attributes"],
+        ["xpath=//div[@id='home']/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'javascript:;')]", "xpath:href"],
+        ["xpath=//a", "xpath:position"],
+        ["xpath=//a[contains(.,'Doğrula')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "118f69f1-8a6c-4d70-ad23-887deb4caf4d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.evGcp",
+      "targets": [
+        ["css=.evGcp", "css:finder"],
+        ["xpath=//div[@id='game_children_challenge']/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '#')]", "xpath:href"],
+        ["xpath=//a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "191cdc48-ce48-4100-90d9-d673ec98362f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.dAplmu",
+      "targets": [
+        ["css=.dAplmu", "css:finder"],
+        ["xpath=//div[@id='game_children_challenge']/div/a[6]", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#')])[6]", "xpath:href"],
+        ["xpath=//a[6]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4e71cc3c-f54b-416c-92bd-7c65c13e1e44",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.dAplmu",
+      "targets": [
+        ["css=.dAplmu", "css:finder"],
+        ["xpath=//div[@id='game_children_challenge']/div/a[6]", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#')])[6]", "xpath:href"],
+        ["xpath=//a[6]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "63951fe8-e24b-40db-bc7b-c63ba3839d15",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "relative=parent",
+      "targets": [
+        ["relative=parent"]
+      ],
+      "value": ""
+    }, {
+      "id": "98b185ef-3f57-465e-b218-c5bde37ae0bb",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "relative=parent",
+      "targets": [
+        ["relative=parent"]
+      ],
+      "value": ""
+    }, {
+      "id": "4363c8b1-f107-4943-9b96-878eb35e8872",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "relative=parent",
+      "targets": [
+        ["relative=parent"]
+      ],
+      "value": ""
+    }, {
+      "id": "d134c8fc-d771-49a1-81ff-20e807fa0d50",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "relative=parent",
+      "targets": [
+        ["relative=parent"]
+      ],
+      "value": ""
+    }, {
+      "id": "462482a3-2b40-4ce3-b20e-89d3570ac744",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "relative=parent",
+      "targets": [
+        ["relative=parent"]
+      ],
+      "value": ""
+    }, {
+      "id": "aa36dbfe-4777-4d5e-acee-6cbf971118f2",
+      "comment": "",
+      "command": "click",
+      "target": "id=typeahead-input-for-city-district",
+      "targets": [
+        ["id=typeahead-input-for-city-district", "id"],
+        ["css=#typeahead-input-for-city-district", "css:finder"],
+        ["xpath=//input[@id='typeahead-input-for-city-district']", "xpath:attributes"],
+        ["xpath=//main[@id='main']/div/div/div/div/section/div/div[2]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ae7c1664-b4b5-4dc0-ba02-a277e06cdb60",
+      "comment": "",
+      "command": "click",
+      "target": "css=#basic-result-m7byip .search-typeahead-v2__hit-text",
+      "targets": [
+        ["css=#basic-result-m7byip .search-typeahead-v2__hit-text", "css:finder"],
+        ["xpath=//div[@id='basic-result-m7byip']/div/span/span", "xpath:idRelative"],
+        ["xpath=//div[2]/div/span/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2243378a-ebd1-4252-867b-be8e5199d5f0",
+      "comment": "",
+      "command": "type",
+      "target": "id=typeahead-input-for-city-district",
+      "targets": [
+        ["id=typeahead-input-for-city-district", "id"],
+        ["css=#typeahead-input-for-city-district", "css:finder"],
+        ["xpath=//input[@id='typeahead-input-for-city-district']", "xpath:attributes"],
+        ["xpath=//main[@id='main']/div/div/div/div/section/div/div[2]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/input", "xpath:position"]
+      ],
+      "value": "Ankara, Türkiye"
+    }, {
+      "id": "25870259-1672-40c3-b0d6-97804d579de6",
+      "comment": "",
+      "command": "click",
+      "target": "id=ember11",
+      "targets": [
+        ["id=ember11", "id"],
+        ["css=#ember11", "css:finder"],
+        ["xpath=//button[@id='ember11']", "xpath:attributes"],
+        ["xpath=//main[@id='main']/div/div/div/div/section/div/footer/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'İleri')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "826ff177-3886-467d-b5f9-05f457a6c6cd",
+      "comment": "",
+      "command": "click",
+      "target": "css=#ember18 > .artdeco-button__text",
+      "targets": [
+        ["css=#ember18 > .artdeco-button__text", "css:finder"],
+        ["xpath=//button[@id='ember18']/span", "xpath:idRelative"],
+        ["xpath=//span", "xpath:position"],
+        ["xpath=//span[contains(.,'Öğrenciyim')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f692de52-292a-4ec0-8794-968b56cf4c9f",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=#ember18 > .artdeco-button__text",
+      "targets": [
+        ["css=#ember18 > .artdeco-button__text", "css:finder"],
+        ["xpath=//button[@id='ember18']/span", "xpath:idRelative"],
+        ["xpath=//span", "xpath:position"],
+        ["xpath=//span[contains(.,'Öğrenciyim')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c755d536-53e3-44d5-8c3d-45e49f4ed3b0",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=#ember18 > .artdeco-button__text",
+      "targets": [
+        ["css=#ember18 > .artdeco-button__text", "css:finder"],
+        ["xpath=//button[@id='ember18']/span", "xpath:idRelative"],
+        ["xpath=//section[2]/div/footer/button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'\n    Öğrenciyim\n')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "2e23411a-b49f-4f28-af09-c5185b587da5",
+      "comment": "",
+      "command": "click",
+      "target": "id=typeahead-input-for-school-name",
+      "targets": [
+        ["id=typeahead-input-for-school-name", "id"],
+        ["css=#typeahead-input-for-school-name", "css:finder"],
+        ["xpath=//input[@id='typeahead-input-for-school-name']", "xpath:attributes"],
+        ["xpath=//main[@id='main']/div/div/div/div/section/div/div/div/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "64e02684-2b92-4835-b1a4-229e8b279aee",
+      "comment": "",
+      "command": "click",
+      "target": "css=.onboarding-widget__main-content",
+      "targets": [
+        ["css=.onboarding-widget__main-content", "css:finder"],
+        ["xpath=//main[@id='main']/div/div/div/div", "xpath:idRelative"],
+        ["xpath=//main/div/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "09b2be14-b8c8-42c5-b73f-de998d58d076",
+      "comment": "",
+      "command": "click",
+      "target": "css=#basic-result-yj7mmf .search-typeahead-v2__hit-text",
+      "targets": [
+        ["css=#basic-result-yj7mmf .search-typeahead-v2__hit-text", "css:finder"],
+        ["xpath=//div[@id='basic-result-yj7mmf']/div/span/span", "xpath:idRelative"],
+        ["xpath=//span/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2ae7f758-08bf-4064-9712-575d032dd279",
+      "comment": "",
+      "command": "type",
+      "target": "id=typeahead-input-for-school-name",
+      "targets": [
+        ["id=typeahead-input-for-school-name", "id"],
+        ["css=#typeahead-input-for-school-name", "css:finder"],
+        ["xpath=//input[@id='typeahead-input-for-school-name']", "xpath:attributes"],
+        ["xpath=//main[@id='main']/div/div/div/div/section/div/div/div/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "Ankara Üniversitesi"
+    }, {
+      "id": "2c92f7c6-fabb-4da5-84c9-51a0d7893cae",
+      "comment": "",
+      "command": "click",
+      "target": "id=typeahead-input-for-degree-name",
+      "targets": [
+        ["id=typeahead-input-for-degree-name", "id"],
+        ["css=#typeahead-input-for-degree-name", "css:finder"],
+        ["xpath=//input[@id='typeahead-input-for-degree-name']", "xpath:attributes"],
+        ["xpath=//main[@id='main']/div/div/div/div/section/div/div/div[2]/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "0c2c0fe3-0c93-4de2-a626-c272ab3e40d0",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["251328d5-ae6e-4492-af55-49b05bb845a2"]
+  }],
+  "urls": ["https://tr.linkedin.com/"],
+  "plugins": []
+}

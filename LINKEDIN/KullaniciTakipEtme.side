@@ -1,0 +1,208 @@
+{
+  "id": "dfd8f478-f168-4cd5-89db-72785a526352",
+  "version": "2.0",
+  "name": "linkedinTakip7",
+  "url": "https://www.linkedin.com",
+  "tests": [{
+    "id": "9605414d-421b-4a80-882d-029360cdda58",
+    "name": "KullanıcıTakipEtme",
+    "commands": [{
+      "id": "3bcd0467-d264-428e-9561-b6d77d681e04",
+      "comment": "",
+      "command": "open",
+      "target": "/checkpoint/rm/sign-in-another-account?fromSignIn=true&trk=guest_homepage-basic_nav-header-signin",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "fbbfdde2-ae36-4407-a060-49326479e4ea",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1440x860",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "be0ab2f7-ddd2-4014-8fc8-5ef79e53fe04",
+      "comment": "",
+      "command": "type",
+      "target": "id=username",
+      "targets": [
+        ["id=username", "id"],
+        ["name=session_key", "name"],
+        ["css=#username", "css:finder"],
+        ["xpath=//input[@id='username']", "xpath:attributes"],
+        ["xpath=//div[@id='organic-div']/form/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "adageer@yandex.com"
+    }, {
+      "id": "5516b35a-7aa6-417e-9020-05156bd5ea5f",
+      "comment": "",
+      "command": "click",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["name=session_password", "name"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//div[@id='organic-div']/form/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "721a9900-e5b3-4911-8853-37df37ec8271",
+      "comment": "",
+      "command": "type",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["name=session_password", "name"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//div[@id='organic-div']/form/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "AZsx.123_"
+    }, {
+      "id": "d69148b9-0509-4e7e-b103-57a19ccc13cf",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn__primary--large",
+      "targets": [
+        ["css=.btn__primary--large", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//div[@id='organic-div']/form/div[3]/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Oturum açın')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d93ba0c0-48a8-4748-bd6a-1d5c3f74da21",
+      "comment": "",
+      "command": "click",
+      "target": "css=.search-global-typeahead__input",
+      "targets": [
+        ["css=.search-global-typeahead__input", "css:finder"],
+        ["xpath=//input[@type='text']", "xpath:attributes"],
+        ["xpath=//div[@id='global-nav-typeahead']/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "da4256ab-a88b-4694-9e02-7134879fa8d9",
+      "comment": "",
+      "command": "type",
+      "target": "css=.search-global-typeahead__input",
+      "targets": [
+        ["css=.search-global-typeahead__input", "css:finder"],
+        ["xpath=//input[@type='text']", "xpath:attributes"],
+        ["xpath=//div[@id='global-nav-typeahead']/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "Çevik Çözüm"
+    }, {
+      "id": "be996a85-c5d2-44d3-9afa-936baffa6614",
+      "comment": "",
+      "command": "click",
+      "target": "css=.follow > span",
+      "targets": [
+        ["css=.follow > span", "css:finder"],
+        ["xpath=//div[@id='ember272']/div[2]/div/div[3]/div/div/button/span", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Takip Et')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "0fe6a14b-66a4-407e-a6a4-0ec7d019c49e",
+      "comment": "",
+      "command": "click",
+      "target": "id=ember504",
+      "targets": [
+        ["id=ember504", "id"],
+        ["css=#ember504", "css:finder"],
+        ["xpath=//button[@id='ember504']", "xpath:attributes"],
+        ["xpath=//div[@id='ember496']/div/footer/div/button", "xpath:idRelative"],
+        ["xpath=//footer/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Takip Et')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "fe5e80f8-8a62-43f5-bd97-bf079cefd29b",
+      "comment": "",
+      "command": "click",
+      "target": "css=#ember515 > .artdeco-button__text",
+      "targets": [
+        ["css=#ember515 > .artdeco-button__text", "css:finder"],
+        ["xpath=//button[@id='ember515']/span", "xpath:idRelative"],
+        ["xpath=//li[2]/div/div/div/div/div/footer/div/button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Takip Et')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f53e73d6-ea71-4808-9a26-fc5c5d42b2e0",
+      "comment": "",
+      "command": "click",
+      "target": "css=#ember526 > .artdeco-button__text",
+      "targets": [
+        ["css=#ember526 > .artdeco-button__text", "css:finder"],
+        ["xpath=//button[@id='ember526']/span", "xpath:idRelative"],
+        ["xpath=//li[3]/div/div/div/div/div/footer/div/button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Takip Et')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "caea25ff-5aed-49f8-b279-fb230b7147de",
+      "comment": "",
+      "command": "click",
+      "target": "css=#ember537 > .artdeco-button__text",
+      "targets": [
+        ["css=#ember537 > .artdeco-button__text", "css:finder"],
+        ["xpath=//button[@id='ember537']/span", "xpath:idRelative"],
+        ["xpath=//li[4]/div/div/div/div/div/footer/div/button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Takip Et')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "2b851323-4006-41cf-9b91-e1b051eb9e0a",
+      "comment": "",
+      "command": "click",
+      "target": "css=#ember32 .global-nav__icon",
+      "targets": [
+        ["css=#ember32 .global-nav__icon", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "fb8c98ec-007a-453e-af2f-7d7ed3693079",
+      "comment": "",
+      "command": "doubleClick",
+      "target": "css=#ember32 .global-nav__icon",
+      "targets": [
+        ["css=#ember32 .global-nav__icon", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "6ed98705-3ff8-44c6-b0dd-4c2ccfb9a797",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Oturumu Kapat",
+      "targets": [
+        ["linkText=Oturumu Kapat", "linkText"],
+        ["css=.mv1:nth-child(1)", "css:finder"],
+        ["xpath=//div[@id='ember35']/div/ul/li[3]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/m/logout/')]", "xpath:href"],
+        ["xpath=//div/ul/li[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Oturumu Kapat')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "a023579f-57ee-4f52-a9d5-6d0ce618da85",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["9605414d-421b-4a80-882d-029360cdda58"]
+  }],
+  "urls": ["https://www.linkedin.com/"],
+  "plugins": []
+}

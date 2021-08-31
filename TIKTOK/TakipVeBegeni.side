@@ -1,0 +1,435 @@
+{
+  "id": "5eabbc9f-ecf3-417c-b550-4a2699f4faa2",
+  "version": "2.0",
+  "name": "TiktokBeğeni3",
+  "url": "https://www.tiktok.com",
+  "tests": [{
+    "id": "e7b857d6-fefe-4591-9c49-8b06def02b70",
+    "name": "TakipEtmeVeBegeni",
+    "commands": [{
+      "id": "19916542-1aac-412d-abec-9e3d6b9cb294",
+      "comment": "",
+      "command": "open",
+      "target": "/tr-TR/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2bf2fd0a-7142-4aed-b57c-7b206accd8c6",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1378x733",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d70048f3-627f-4aae-b9f5-1b7e63e6b0a4",
+      "comment": "",
+      "command": "click",
+      "target": "css=.jsx-2908292060",
+      "targets": [
+        ["css=.jsx-2908292060", "css:finder"],
+        ["xpath=//button[@type='button']", "xpath:attributes"],
+        ["xpath=//div[@id='main']/div/div/div[3]/button", "xpath:idRelative"],
+        ["xpath=//div[3]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Giriş yapın')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f1f9d844-a022-409b-8c34-b0974759e7e9",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "index=0",
+      "targets": [
+        ["index=0"]
+      ],
+      "value": ""
+    }, {
+      "id": "1008eff0-c9c6-4a0b-b3f6-f3427d2039c4",
+      "comment": "",
+      "command": "click",
+      "target": "css=.channel-item-wrapper-2gBWB:nth-child(2) > .channel-name-2qzLW",
+      "targets": [
+        ["css=.channel-item-wrapper-2gBWB:nth-child(2) > .channel-name-2qzLW", "css:finder"],
+        ["xpath=//div[@id='root']/div/div/div/div/div[2]/div[2]/div[2]", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d2384c99-187c-4dac-9664-fac38a2e918e",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=E-posta veya kullanıcı adıyla giriş yapın",
+      "targets": [
+        ["linkText=E-posta veya kullanıcı adıyla giriş yapın", "linkText"],
+        ["css=.title-wrapper-3KgEa > .link-2j8GS", "css:finder"],
+        ["xpath=//a[contains(text(),'E-posta veya kullanıcı adıyla giriş yapın')]", "xpath:link"],
+        ["xpath=//div[@id='root']/div/div/form/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/login/phone-or-email/email')]", "xpath:href"],
+        ["xpath=//a", "xpath:position"],
+        ["xpath=//a[contains(.,'E-posta veya kullanıcı adıyla giriş yapın')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "77d1c5da-4ce5-49df-a5e7-26ad2012a8bc",
+      "comment": "",
+      "command": "type",
+      "target": "name=email",
+      "targets": [
+        ["name=email", "name"],
+        ["css=input:nth-child(1)", "css:finder"],
+        ["xpath=//input[@name='email']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/form/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "alidurmazas@yandex.com"
+    }, {
+      "id": "905f1281-5f22-47db-bab5-6fc5553943bb",
+      "comment": "",
+      "command": "click",
+      "target": "name=password",
+      "targets": [
+        ["name=password", "name"],
+        ["css=input:nth-child(2)", "css:finder"],
+        ["xpath=//input[@name='password']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/form/div[3]/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d7750159-2214-4a34-b997-fc807c781fd7",
+      "comment": "",
+      "command": "type",
+      "target": "name=password",
+      "targets": [
+        ["name=password", "name"],
+        ["css=input:nth-child(2)", "css:finder"],
+        ["xpath=//input[@name='password']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/form/div[3]/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/input", "xpath:position"]
+      ],
+      "value": "AZsx.123_"
+    }, {
+      "id": "7ccf8c1d-5ae5-4289-8e1f-01cbf559a272",
+      "comment": "",
+      "command": "click",
+      "target": "css=.login-button-31D24",
+      "targets": [
+        ["css=.login-button-31D24", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/form/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Giriş Yap')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "7cf0075a-c6ce-4f46-a9a0-2c5c86f47bca",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.login-button-31D24",
+      "targets": [
+        ["css=.login-button-31D24", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/form/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Giriş Yap')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "fc24c326-7377-4b32-8143-328783b59988",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.login-button-31D24",
+      "targets": [
+        ["css=.login-button-31D24", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/form/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Giriş Yap')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "546f50b2-86e2-4b03-934b-4c3ca4b17a52",
+      "comment": "",
+      "command": "mouseDownAt",
+      "target": "css=.captcha_verify_img_slide",
+      "targets": [
+        ["css=.captcha_verify_img_slide", "css:finder"],
+        ["xpath=//img[contains(@src,'https://p16-security-va.ibyteimg.com/img/security-captcha-oversea-usa/slide_83c5ea99ea6012a816a0a3476d568192d0277375_2_1.png~tplv-obj.image')]", "xpath:img"],
+        ["xpath=//div[@id='login_slide']/div/div[2]/img[2]", "xpath:idRelative"],
+        ["xpath=//img[2]", "xpath:position"]
+      ],
+      "value": "27,24.390625"
+    }, {
+      "id": "cac0849a-3914-4a07-bee5-c52dc9bc977f",
+      "comment": "",
+      "command": "mouseMoveAt",
+      "target": "css=.captcha_verify_img_slide",
+      "targets": [
+        ["css=.captcha_verify_img_slide", "css:finder"],
+        ["xpath=//img[contains(@src,'https://p16-security-va.ibyteimg.com/img/security-captcha-oversea-usa/slide_83c5ea99ea6012a816a0a3476d568192d0277375_2_1.png~tplv-obj.image')]", "xpath:img"],
+        ["xpath=//div[@id='login_slide']/div/div[2]/img[2]", "xpath:idRelative"],
+        ["xpath=//img[2]", "xpath:position"]
+      ],
+      "value": "27,24.390625"
+    }, {
+      "id": "5add6208-6de5-4990-a1a5-c0c0a7a240a5",
+      "comment": "",
+      "command": "mouseUpAt",
+      "target": "css=.captcha_verify_img_slide",
+      "targets": [
+        ["css=.captcha_verify_img_slide", "css:finder"],
+        ["xpath=//img[contains(@src,'https://p16-security-va.ibyteimg.com/img/security-captcha-oversea-usa/slide_83c5ea99ea6012a816a0a3476d568192d0277375_2_1.png~tplv-obj.image')]", "xpath:img"],
+        ["xpath=//div[@id='login_slide']/div/div[2]/img[2]", "xpath:idRelative"],
+        ["xpath=//img[2]", "xpath:position"]
+      ],
+      "value": "27,24.390625"
+    }, {
+      "id": "a23c292c-a499-4112-b849-b4c600f17907",
+      "comment": "",
+      "command": "click",
+      "target": "css=.captcha_verify_img_slide",
+      "targets": [
+        ["css=.captcha_verify_img_slide", "css:finder"],
+        ["xpath=//img[contains(@src,'https://p16-security-va.ibyteimg.com/img/security-captcha-oversea-usa/slide_83c5ea99ea6012a816a0a3476d568192d0277375_2_1.png~tplv-obj.image')]", "xpath:img"],
+        ["xpath=//div[@id='login_slide']/div/div[2]/img[2]", "xpath:idRelative"],
+        ["xpath=//img[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b4b8d56a-d6e2-4331-ad84-6c4ffaf72fde",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "relative=parent",
+      "targets": [
+        ["relative=parent"]
+      ],
+      "value": ""
+    }, {
+      "id": "fe9bab09-b572-4773-b8ee-a7e253a5fcd3",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.jsx-2055372491:nth-child(5)",
+      "targets": [
+        ["css=.jsx-2055372491:nth-child(5)", "css:finder"],
+        ["xpath=//div[@id='main']/div[2]/div[2]/div/div/span/div/div/div[5]/div/a/div/div/span[2]", "xpath:idRelative"],
+        ["xpath=//a/div/div/span[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "148c0862-f0b2-497a-874b-474483c7c302",
+      "comment": "",
+      "command": "click",
+      "target": "css=.user-item:nth-child(2) > .jsx-157764299 > .jsx-157764299 > .jsx-157764299 > .jsx-157764299",
+      "targets": [
+        ["css=.user-item:nth-child(2) > .jsx-157764299 > .jsx-157764299 > .jsx-157764299 > .jsx-157764299", "css:finder"],
+        ["xpath=//div[@id='main']/div[2]/div/div/div/div/div/div[2]/a/span/div[2]/p/h4", "xpath:idRelative"],
+        ["xpath=//h4", "xpath:position"],
+        ["xpath=//h4[contains(.,'cznburak')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "cfbae85d-a8f6-4d80-a46f-038295a7c7e5",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.follow-button",
+      "targets": [
+        ["css=.follow-button", "css:finder"],
+        ["xpath=//button[@type='button']", "xpath:attributes"],
+        ["xpath=//div[@id='main']/div[2]/div[2]/div/header/div/div[2]/div/div/button", "xpath:idRelative"],
+        ["xpath=//div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Takip Et')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "4ea0d4b9-5318-4929-9789-f2d87cdf0268",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.follow-button",
+      "targets": [
+        ["css=.follow-button", "css:finder"],
+        ["xpath=//button[@type='button']", "xpath:attributes"],
+        ["xpath=//div[@id='main']/div[2]/div[2]/div/header/div/div[2]/div/div/button", "xpath:idRelative"],
+        ["xpath=//div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Takip Et')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "8947ad3a-56a2-4ead-912a-b7c05c675719",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.follow-button",
+      "targets": [
+        ["css=.follow-button", "css:finder"],
+        ["xpath=//button[@type='button']", "xpath:attributes"],
+        ["xpath=//div[@id='main']/div[2]/div[2]/div/header/div/div[2]/div/div/button", "xpath:idRelative"],
+        ["xpath=//div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Takip Et')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "4e0865ef-6601-44e9-aef8-62eadcd5258a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.follow-button",
+      "targets": [
+        ["css=.follow-button", "css:finder"],
+        ["xpath=//button[@type='button']", "xpath:attributes"],
+        ["xpath=//div[@id='main']/div[2]/div[2]/div/header/div/div[2]/div/div/button", "xpath:idRelative"],
+        ["xpath=//div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Takip Et')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "5254c732-8283-45a9-93b5-c2ef0e8250d0",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,105)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6c5ba9b2-b00c-4499-8bb8-9582c7e730c7",
+      "comment": "",
+      "command": "click",
+      "target": "css=.jsx-969240130:nth-child(2)",
+      "targets": [
+        ["css=.jsx-969240130:nth-child(2)", "css:finder"],
+        ["xpath=//div[@id='main']/div[2]/div[2]/div/main/div[2]/div/div/div/div/div/a/span/div/div/div", "xpath:idRelative"],
+        ["xpath=//span/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fc13f856-cbd4-4985-8e4f-7bf67582eba9",
+      "comment": "",
+      "command": "click",
+      "target": "css=.like:nth-child(1)",
+      "targets": [
+        ["css=.like:nth-child(1)", "css:finder"],
+        ["xpath=//div[@id='main']/div[2]/div[2]/div/main/div[2]/div[2]/div[2]/div[2]/div/div/div/span", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/div[2]/div/div/div/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "95e9d108-df48-47f7-91f0-93b3ee061c42",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.jsx-966068288:nth-child(1) .user-info > .jsx-2884115300:nth-child(2)",
+      "targets": [
+        ["css=.jsx-966068288:nth-child(1) .user-info > .jsx-2884115300:nth-child(2)", "css:finder"],
+        ["xpath=//div[@id='main']/div[2]/div[2]/div/main/div[2]/div[2]/div[2]/div[3]/div/div/div/div/a/span[2]", "xpath:idRelative"],
+        ["xpath=//a/span[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "59fe1caa-5a35-4068-8c77-42dc1772f60c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.public-DraftStyleDefault-block",
+      "targets": [
+        ["css=.public-DraftStyleDefault-block", "css:finder"],
+        ["xpath=//div[@id='main']/div[2]/div[2]/div/main/div[2]/div[2]/div[2]/div[4]/div/div/div/div/div/div[2]/div/div/div/div", "xpath:idRelative"],
+        ["xpath=//div[4]/div/div/div/div/div/div[2]/div/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "677f5087-6f36-4e09-9f27-e97072aed392",
+      "comment": "",
+      "command": "editContent",
+      "target": "css=.notranslate",
+      "targets": [
+        ["css=.notranslate", "css:finder"],
+        ["xpath=//div[@id='main']/div[2]/div[2]/div/main/div[2]/div[2]/div[2]/div[4]/div/div/div/div/div/div/div", "xpath:idRelative"],
+        ["xpath=//div[4]/div/div/div/div/div/div/div", "xpath:position"]
+      ],
+      "value": "<div data-contents=\"true\"><div class=\"\" data-block=\"true\" data-editor=\"4ubhn\" data-offset-key=\"2itc9-0-0\"><div data-offset-key=\"2itc9-0-0\" class=\"public-DraftStyleDefault-block public-DraftStyleDefault-ltr\"><span><span data-offset-key=\"2itc9-0-0\"><span data-text=\"true\">:</span></span></span><span data-offset-key=\"2itc9-1-0\"><span data-text=\"true\">((</span></span></div></div></div>"
+    }, {
+      "id": "7a2fa1dc-d0ee-4586-bf5e-15f2a72d94a3",
+      "comment": "",
+      "command": "click",
+      "target": "css=.post-container",
+      "targets": [
+        ["css=.post-container", "css:finder"],
+        ["xpath=//div[@id='main']/div[2]/div[2]/div/main/div[2]/div[2]/div[2]/div[4]/div/div[2]", "xpath:idRelative"],
+        ["xpath=//div[2]/div[4]/div/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "46b9b94e-8e73-4ba6-9ac5-9c0cf8e23cb9",
+      "comment": "",
+      "command": "click",
+      "target": "css=.jsx-1208149965:nth-child(5)",
+      "targets": [
+        ["css=.jsx-1208149965:nth-child(5)", "css:finder"],
+        ["xpath=//img[contains(@src,'https://sf16-scmcdn-va.ibytedtos.com/goofy/tiktok/web/node/_next/static/images/close-2e545f0f69b3639a0a78d69694f61dfa.svg')]", "xpath:img"],
+        ["xpath=//div[@id='main']/div[2]/div[2]/div/main/div[2]/div[2]/div/img[2]", "xpath:idRelative"],
+        ["xpath=//img[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f83351a5-a58f-4b9e-b05c-440be50f75d9",
+      "comment": "",
+      "command": "click",
+      "target": "css=.jsx-2570553545 > .tiktok-avatar > img",
+      "targets": [
+        ["css=.jsx-2570553545 > .tiktok-avatar > img", "css:finder"],
+        ["xpath=//img[contains(@src,'https://p16-sign-va.tiktokcdn.com/musically-maliva-obj/1594805258216454~c5_720x720.jpeg?x-expires=1628074800&x-signature=zG%2FNS2ra2UrEOm48xbEPhAIgTAw%3D')]", "xpath:img"],
+        ["xpath=//div[@id='main']/div/div/div[3]/div[4]/span/span/img", "xpath:idRelative"],
+        ["xpath=//span/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a9ce9354-c410-4f73-b04c-51e86a48fdb5",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Profili görüntüle",
+      "targets": [
+        ["linkText=Profili görüntüle", "linkText"],
+        ["css=.profile", "css:finder"],
+        ["xpath=//a[contains(text(),'Profili görüntüle')]", "xpath:link"],
+        ["xpath=//div[@id='main']/div/div/div[3]/div[4]/div/div/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/@user27989896169781?lang=tr-TR&is_copy_url=1&is_from_webapp=v1')]", "xpath:href"],
+        ["xpath=//div[4]/div/div/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Profili görüntüle')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "8242337c-9676-4bf6-948f-0aaadb9e5ce3",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Ayarlar",
+      "targets": [
+        ["linkText=Ayarlar", "linkText"],
+        ["css=.set", "css:finder"],
+        ["xpath=//a[contains(text(),'Ayarlar')]", "xpath:link"],
+        ["xpath=//div[@id='main']/div/div/div[3]/div[4]/div/div/div[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/setting?lang=tr-TR&is_copy_url=1&is_from_webapp=v1')]", "xpath:href"],
+        ["xpath=//div[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Ayarlar')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ca90dc1e-a676-40c1-8ab6-a8fcb292b08f",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Oturumu Kapat",
+      "targets": [
+        ["linkText=Oturumu Kapat", "linkText"],
+        ["css=.logout", "css:finder"],
+        ["xpath=//a[contains(text(),'Oturumu Kapat')]", "xpath:link"],
+        ["xpath=//div[@id='main']/div/div/div[3]/div[4]/div/div/div[5]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.tiktok.com/logout?redirect_url=https%3A%2F%2Fwww.tiktok.com%2F%40cznburak%3Flang%3Dtr-TR&lang=tr-TR')]", "xpath:href"],
+        ["xpath=//div[5]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Oturumu Kapat')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "ada24b9d-2338-4e87-827d-b773ea1ef1f6",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["e7b857d6-fefe-4591-9c49-8b06def02b70"]
+  }],
+  "urls": ["https://www.tiktok.com/"],
+  "plugins": []
+}
